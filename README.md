@@ -1,9 +1,26 @@
-- 👋 Hi, I’m Neko
-- 👀 Im interested in NodeJS
-- 🌱 Im learning Python & Lua
-- 📫 You can reach me on discord! neko#0420 (Granted, i wont always reply)
+```ts
+import Programmer from '../Hobbies/Programming'
 
-<!---
-Nekoyre/Nekoyre is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+export class Neko extends Programmer {
+    constructor() {
+      super({
+         languages: ['Typescript', 'Python', 'Javascript (Node)']
+      });
+    };
+    
+    private static sleep(time: number) {
+        return new Promise((resolve) => setTimeout(resolve, time));
+    }
+    
+    public static Username: string = 'Neko'
+    public static Age: number = 13;
+    public static Discord: string = 'neko#0420';
+    public static Projects: object = { 'Psyber': 'A Discord bot using the discord.js lib' };
+    public static ToLearn: Array<string> = ['Js (Web Dev)', 'Lua', 'Advanced CSS'];
+    
+    public static async code() {
+        await sleep(60000 * 60)
+        return 'string in a string... Stringception'
+    }
+};
+```

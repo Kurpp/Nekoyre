@@ -15,7 +15,7 @@ export class Neko extends Programmer {
     public static Username: string = 'Neko'
     public static Age: number = 13;
     public static Discord: string = 'neko#0420';
-    public static Projects: object = { 'Psyber': 'A Discord bot using the discord.js lib' };
+    public static Projects: string = 'Soon™';
     public static ToLearn: Array<string> = ['Js (Web Dev)', 'Lua', 'Advanced CSS'];
     
     public static async code() {

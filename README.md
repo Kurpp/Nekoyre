@@ -15,8 +15,8 @@ export class Neko extends Programmer {
     public static Username: string = 'Neko'
     public static Age: number = 13;
     public static Discord: string = 'neko#0420';
-    public static Projects: string = 'Soon™';
-    public static ToLearn: Array<string> = ['Js (Web Dev)', 'Lua', 'Advanced CSS'];
+    public static Projects: Array<string> = 'https://elixr.host';
+    public static ToLearn: Array<string> = ['Lua', 'Advanced CSS'];
     
     public static async code() {
         await sleep(60000 * 60)

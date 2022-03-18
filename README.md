@@ -1,7 +1,8 @@
 hello 👋, i do things on the internet<br>
 i have a fairly decent grasp on golang, much better at typescript<br>
 i would like to start learning frontend to call myself fullstack one day :thonk:<br>
-my latest project is a file hosting platform called [kythi](https://kythi.com)
+my latest project is a file hosting platform called [kythi](https://kythi.com)<br><br>
+yes my profile is quite empty, i would like to fill it with some cool personal projects one day (just not today)
 
 <h1>some cool graphs</h1>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kurpp&layout=compact&theme=dracula&hide_border=true" />
